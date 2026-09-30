@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Add Student</title>
+</head>
+<body>
+
+<h2>Insert Student Details</h2>
+
+<form action="add-student" method="post">
+
+    <label for="roll_no">Roll Number:</label>
+    <input type="text" id="roll_no" name="roll_no" required>
+
+    <br><br>
+
+    <label for="name">Student Name:</label>
+    <input type="text" id="name" name="name" required>
+
+    <br><br>
+
+    <label for="department">Department:</label>
+    <input type="text" id="department" name="department" required>
+
+    <br><br>
+
+    <label for="age">Age:</label>
+    <input type="number" id="age" name="age" min="1" required>
+
+    <br><br>
+
+    <input type="submit" value="Insert Student">
+
+</form>
+
+<br>
+
+<a href="students">View Student Records</a>
+<br><br>
+<a href="index.html">Home</a>
+
+</body>
+</html>
